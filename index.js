@@ -1,6 +1,6 @@
 const express = require("express");
 const { connection } = require("./config/db");
-const { User } = require("./models/user.model");
+const { User } = require("./models/User.model");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 require("dotenv").config()
